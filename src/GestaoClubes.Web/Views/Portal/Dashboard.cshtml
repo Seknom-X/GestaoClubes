@@ -1,0 +1,4 @@
+@using System.Text.Json
+@{var me=(JsonElement)ViewBag.Me;}
+<h1>Meu painel</h1><p>Escolha um vínculo aprovado para acessar os serviços.</p><div class="grid">@foreach(var m in me.GetProperty("memberships").EnumerateArray()){<section><h2>@m.GetProperty("club")</h2><p>@m.GetProperty("role") · @m.GetProperty("status")</p><p>Direito a voto: @(m.GetProperty("canVote").GetBoolean()?"Sim":"Não")</p>@if(m.GetProperty("status").GetString()=="Aprovado"){<a class="button" href="/Portal/Panel?clubId=@m.GetProperty("clubId")">Abrir clube</a>}</section>}</div>
+@if(me.GetProperty("superAdmin").GetBoolean()){<h2>Administração global</h2>@foreach(var c in ((JsonElement)ViewBag.Clubs).EnumerateArray()){<p><a href="/Portal/Panel?clubId=@c.GetProperty("id")&module=members">@c.GetProperty("name")</a></p>}<details><summary>Criar clube</summary><form asp-action="CreateClub" method="post"><partial name="_ClubFields"/><button>Criar clube</button></form></details>}

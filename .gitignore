@@ -1,0 +1,14 @@
+**/bin/
+**/obj/
+.vs/
+.env
+*.user
+*.db
+*.db-*
+*.db3
+*.keystore
+*.jks
+*.pfx
+secrets/
+TestResults/
+artifacts/

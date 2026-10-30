@@ -1,0 +1,3 @@
+<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>GestaoClubes</title><link rel="stylesheet" href="~/css/site.css"/></head><body>
+<header><a href="/">GC · GestaoClubes</a><nav><a href="/Portal/Dashboard">Meu painel</a><a href="/Portal/Register">Solicitar cadastro</a><a href="/Portal/Login">Entrar</a><form asp-controller="Portal" asp-action="Logout" method="post"><button>Sair</button></form></nav></header>
+<main>@if(TempData["Message"] is string message){<aside role="status">@message</aside>}@RenderBody()</main><footer>Projeto acadêmico · Gestão de múltiplos clubes · Dados demonstrativos</footer>@await RenderSectionAsync("Scripts",required:false)</body></html>

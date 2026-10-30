@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="60003b8b-6231-4da7-b7fe-da7d00c0cdb0" name="diego@DIEGO 2026-10-30 20:19:36" runUser="DIEGO\diego" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-10-30T20:19:36.0354691-03:00" queuing="2026-10-30T20:19:36.0354694-03:00" start="2026-10-30T20:19:34.9987451-03:00" finish="2026-10-30T20:19:44.6306920-03:00" />
+  <TestSettings name="default" id="8b03f9a8-0816-4c64-8dcc-f09728bfb6a1">
+    <Deployment runDeploymentRoot="diego_DIEGO_2026-10-30_20_19_36" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="e11a37ac-7f37-41c1-bd2f-76785997b858" testId="5aa778e8-5c6a-6e0e-79e4-eeea6e943a67" testName="GestaoClubes.Tests.RulesTests.VotingRequiresApprovedVotingType(type: Simpatizante, status: Aprovado, expected: False)" computerName="DIEGO" duration="00:00:00.0001670" startTime="2026-10-30T20:19:35.9731911-03:00" endTime="2026-10-30T20:19:35.9732337-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e11a37ac-7f37-41c1-bd2f-76785997b858" />
+    <UnitTestResult executionId="52f54249-7a5a-4035-900c-5e4c12dd3bda" testId="bd5e1f85-6ad1-53ff-8d83-b23260f9f7d2" testName="GestaoClubes.Tests.RulesTests.VotingRequiresApprovedVotingType(type: Fundador, status: Aprovado, expected: True)" computerName="DIEGO" duration="00:00:00.0000010" startTime="2026-10-30T20:19:36.0061103-03:00" endTime="2026-10-30T20:19:36.0061636-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="52f54249-7a5a-4035-900c-5e4c12dd3bda" />
+    <UnitTestResult executionId="fbd1241b-cb57-4825-b077-1827d522011b" testId="e75637a6-06df-26f7-f614-2ed39e2c0c7e" testName="GestaoClubes.Tests.RulesTests.VotingRequiresApprovedVotingType(type: Convidado, status: Aprovado, expected: False)" computerName="DIEGO" duration="00:00:00.0000056" startTime="2026-10-30T20:19:35.9734836-03:00" endTime="2026-10-30T20:19:35.9735248-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fbd1241b-cb57-4825-b077-1827d522011b" />
+    <UnitTestResult executionId="c9e39f9a-54a5-47f8-a92a-a69c3d051cac" testId="8d8fb717-8121-d5f6-b22a-6cb4afbab5b0" testName="GestaoClubes.Tests.RulesTests.VotingRequiresApprovedVotingType(type: Associado, status: Aprovado, expected: True)" computerName="DIEGO" duration="00:00:00.0000014" startTime="2026-10-30T20:19:36.0055449-03:00" endTime="2026-10-30T20:19:36.0056134-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c9e39f9a-54a5-47f8-a92a-a69c3d051cac" />
+    <UnitTestResult executionId="f29c35c6-94c6-463c-a847-af4f79126af4" testId="d4b6f53c-e18f-e082-e0d9-0b96ae0aad3c" testName="GestaoClubes.Tests.RulesTests.AdjacentReservationsDoNotOverlap" computerName="DIEGO" duration="00:00:00.0002527" startTime="2026-10-30T20:19:36.0065844-03:00" endTime="2026-10-30T20:19:36.0067687-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f29c35c6-94c6-463c-a847-af4f79126af4" />
+    <UnitTestResult executionId="ff810c26-3568-4093-a16b-c8f4ac070143" testId="4af05b64-6f31-caf2-3905-134c2b0cbb3a" testName="GestaoClubes.Tests.RulesTests.CpfChecksDigits(cpf: &quot;52998224725&quot;, valid: True)" computerName="DIEGO" duration="00:00:00.0003556" startTime="2026-10-30T20:19:35.9708305-03:00" endTime="2026-10-30T20:19:35.9709224-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ff810c26-3568-4093-a16b-c8f4ac070143" />
+    <UnitTestResult executionId="31f6ffa5-b20f-430c-a19f-3347ebc8adbb" testId="17bdee3d-4a28-6a41-f3ef-66112223973b" testName="GestaoClubes.Tests.RulesTests.CpfChecksDigits(cpf: &quot;11111111111&quot;, valid: False)" computerName="DIEGO" duration="00:00:00.0000100" startTime="2026-10-30T20:19:35.9716821-03:00" endTime="2026-10-30T20:19:35.9717507-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="31f6ffa5-b20f-430c-a19f-3347ebc8adbb" />
+    <UnitTestResult executionId="16929d12-1488-4afb-9523-3f5315c5cf3e" testId="0392a0b0-cd15-e461-c64b-894ba3054b32" testName="GestaoClubes.Tests.RulesTests.CpfChecksDigits(cpf: &quot;529.982.247-25&quot;, valid: True)" computerName="DIEGO" duration="00:00:00.0080463" startTime="2026-10-30T20:19:35.9439399-03:00" endTime="2026-10-30T20:19:35.9599612-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="16929d12-1488-4afb-9523-3f5315c5cf3e" />
+    <UnitTestResult executionId="dcd02ee0-e215-43cd-8a1f-c259493011c2" testId="24f14e57-c394-a3d4-14b7-4136053dd71d" testName="GestaoClubes.Tests.RulesTests.CpfChecksDigits(cpf: &quot;52998224726&quot;, valid: False)" computerName="DIEGO" duration="00:00:00.0000081" startTime="2026-10-30T20:19:35.9720055-03:00" endTime="2026-10-30T20:19:35.9720430-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dcd02ee0-e215-43cd-8a1f-c259493011c2" />
+    <UnitTestResult executionId="767c1ed7-bbc2-426f-8a4c-aa781afaecfa" testId="f2e6f4ef-959e-817d-9a78-67f1b818453f" testName="GestaoClubes.Tests.RulesTests.ReservationIntervalMustBeUtcAndPositive" computerName="DIEGO" duration="00:00:00.0005228" startTime="2026-10-30T20:19:36.0064578-03:00" endTime="2026-10-30T20:19:36.0064940-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="767c1ed7-bbc2-426f-8a4c-aa781afaecfa" />
+    <UnitTestResult executionId="0aee0cd5-745c-4cad-8fa8-498366259d00" testId="1c3a4962-df01-e693-4665-09f4e758a501" testName="GestaoClubes.Tests.RulesTests.VotingRequiresApprovedVotingType(type: Associado, status: Suspenso, expected: False)" computerName="DIEGO" duration="00:00:00.0002445" startTime="2026-10-30T20:19:35.9733331-03:00" endTime="2026-10-30T20:19:35.9733944-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0aee0cd5-745c-4cad-8fa8-498366259d00" />
+    <UnitTestResult executionId="32a225e1-9df7-4f19-abd3-2ae2420e5711" testId="fba32df5-e8af-9bab-04da-c76bd8d09f3f" testName="GestaoClubes.Tests.EndToEndTests.CompleteWorkflowAndTenantIsolation" computerName="DIEGO" duration="00:00:08.5367294" startTime="2026-10-30T20:19:35.9459293-03:00" endTime="2026-10-30T20:19:44.4954871-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="32a225e1-9df7-4f19-abd3-2ae2420e5711" />
+    <UnitTestResult executionId="d03be710-2cb4-4b14-947f-20c2c2b0417f" testId="5b7c98ca-c77f-b508-6226-c5c7ee6f6797" testName="GestaoClubes.Tests.RulesTests.VotingRequiresApprovedVotingType(type: Fundador, status: Pendente, expected: False)" computerName="DIEGO" duration="00:00:00.0000011" startTime="2026-10-30T20:19:36.0059798-03:00" endTime="2026-10-30T20:19:36.0060270-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d03be710-2cb4-4b14-947f-20c2c2b0417f" />
+    <UnitTestResult executionId="e5154ffa-faf1-43b5-a444-497bb8ccdda1" testId="86c0f841-a209-395b-3fbf-2d074e3cffbc" testName="GestaoClubes.Tests.RulesTests.CpfChecksDigits(cpf: &quot;&quot;, valid: False)" computerName="DIEGO" duration="00:00:00.0000432" startTime="2026-10-30T20:19:35.9718634-03:00" endTime="2026-10-30T20:19:35.9719006-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e5154ffa-faf1-43b5-a444-497bb8ccdda1" />
+    <UnitTestResult executionId="a9c32305-5647-48d4-b92c-8b7ed0d3d6c7" testId="ed877c57-930a-5f2a-dbd6-1d491354d8d1" testName="GestaoClubes.Tests.RulesTests.FutureBirthRejected" computerName="DIEGO" duration="00:00:00.0003562" startTime="2026-10-30T20:19:36.0063100-03:00" endTime="2026-10-30T20:19:36.0063538-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a9c32305-5647-48d4-b92c-8b7ed0d3d6c7" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="GestaoClubes.Tests.EndToEndTests.CompleteWorkflowAndTenantIsolation" storage="c:\users\diego\documents\codex\2026-10-30\referenced-chatgpt-conversation-this-is-an\outputs\gestaoclubes\tests\gestaoclubes.tests\bin\debug\net10.0\gestaoclubes.tests.dll" id="fba32df5-e8af-9bab-04da-c76bd8d09f3f">
+      <Execution id="32a225e1-9df7-4f19-abd3-2ae2420e5711" />
+      <TestMethod codeBase="C:\Users\diego\Documents\Codex\2026-10-30\referenced-chatgpt-conversation-this-is-an\outputs\GestaoClubes\tests\GestaoClubes.Tests\bin\Debug\net10.0\GestaoClubes.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="GestaoClubes.Tests.EndToEndTests" name="CompleteWorkflowAndTenantIsolation" />
+    </UnitTest>
+    <UnitTest name="GestaoClubes.Tests.RulesTests.VotingRequiresApprovedVotingType(type: Convidado, status: Aprovado, expected: False)" storage="c:\users\diego\documents\codex\2026-10-30\referenced-chatgpt-conversation-this-is-an\outputs\gestaoclubes\tests\gestaoclubes.tests\bin\debug\net10.0\gestaoclubes.tests.dll" id="e75637a6-06df-26f7-f614-2ed39e2c0c7e">
+      <Execution id="fbd1241b-cb57-4825-b077-1827d522011b" />
+      <TestMethod codeBase="C:\Users\diego\Documents\Codex\2026-10-30\referenced-chatgpt-conversation-this-is-an\outputs\GestaoClubes\tests\GestaoClubes.Tests\bin\Debug\net10.0\GestaoClubes.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="GestaoClubes.Tests.RulesTests" name="VotingRequiresApprovedVotingType" />
+    </UnitTest>
+    <UnitTest name="GestaoClubes.Tests.RulesTests.CpfChecksDigits(cpf: &quot;&quot;, valid: False)" storage="c:\users\diego\documents\codex\2026-10-30\referenced-chatgpt-conversation-this-is-an\outputs\gestaoclubes\tests\gestaoclubes.tests\bin\debug\net10.0\gestaoclubes.tests.dll" id="86c0f841-a209-395b-3fbf-2d074e3cffbc">
+      <Execution id="e5154ffa-faf1-43b5-a444-497bb8ccdda1" />
+      <TestMethod codeBase="C:\Users\diego\Documents\Codex\2026-10-30\referenced-chatgpt-conversation-this-is-an\outputs\GestaoClubes\tests\GestaoClubes.Tests\bin\Debug\net10.0\GestaoClubes.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="GestaoClubes.Tests.RulesTests" name="CpfChecksDigits" />
+    </UnitTest>
+    <UnitTest name="GestaoClubes.Tests.RulesTests.VotingRequiresApprovedVotingType(type: Fundador, status: Pendente, expected: False)" storage="c:\users\diego\documents\codex\2026-10-30\referenced-chatgpt-conversation-this-is-an\outputs\gestaoclubes\tests\gestaoclubes.tests\bin\debug\net10.0\gestaoclubes.tests.dll" id="5b7c98ca-c77f-b508-6226-c5c7ee6f6797">
+      <Execution id="d03be710-2cb4-4b14-947f-20c2c2b0417f" />
+      <TestMethod codeBase="C:\Users\diego\Documents\Codex\2026-10-30\referenced-chatgpt-conversation-this-is-an\outputs\GestaoClubes\tests\GestaoClubes.Tests\bin\Debug\net10.0\GestaoClubes.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="GestaoClubes.Tests.RulesTests" name="VotingRequiresApprovedVotingType" />
+    </UnitTest>
+    <UnitTest name="GestaoClubes.Tests.RulesTests.CpfChecksDigits(cpf: &quot;52998224725&quot;, valid: True)" storage="c:\users\diego\documents\codex\2026-10-30\referenced-chatgpt-conversation-this-is-an\outputs\gestaoclubes\tests\gestaoclubes.tests\bin\debug\net10.0\gestaoclubes.tests.dll" id="4af05b64-6f31-caf2-3905-134c2b0cbb3a">
+      <Execution id="ff810c26-3568-4093-a16b-c8f4ac070143" />
+      <TestMethod codeBase="C:\Users\diego\Documents\Codex\2026-10-30\referenced-chatgpt-conversation-this-is-an\outputs\GestaoClubes\tests\GestaoClubes.Tests\bin\Debug\net10.0\GestaoClubes.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="GestaoClubes.Tests.RulesTests" name="CpfChecksDigits" />
+    </UnitTest>
+    <UnitTest name="GestaoClubes.Tests.RulesTests.FutureBirthRejected" storage="c:\users\diego\documents\codex\2026-10-30\referenced-chatgpt-conversation-this-is-an\outputs\gestaoclubes\tests\gestaoclubes.tests\bin\debug\net10.0\gestaoclubes.tests.dll" id="ed877c57-930a-5f2a-dbd6-1d491354d8d1">
+      <Execution id="a9c32305-5647-48d4-b92c-8b7ed0d3d6c7" />
+      <TestMethod codeBase="C:\Users\diego\Documents\Codex\2026-10-30\referenced-chatgpt-conversation-this-is-an\outputs\GestaoClubes\tests\GestaoClubes.Tests\bin\Debug\net10.0\GestaoClubes.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="GestaoClubes.Tests.RulesTests" name="FutureBirthRejected" />
+    </UnitTest>
+    <UnitTest name="GestaoClubes.Tests.RulesTests.VotingRequiresApprovedVotingType(type: Associado, status: Suspenso, expected: False)" storage="c:\users\diego\documents\codex\2026-10-30\referenced-chatgpt-conversation-this-is-an\outputs\gestaoclubes\tests\gestaoclubes.tests\bin\debug\net10.0\gestaoclubes.tests.dll" id="1c3a4962-df01-e693-4665-09f4e758a501">
+      <Execution id="0aee0cd5-745c-4cad-8fa8-498366259d00" />
+      <TestMethod codeBase="C:\Users\diego\Documents\Codex\2026-10-30\referenced-chatgpt-conversation-this-is-an\outputs\GestaoClubes\tests\GestaoClubes.Tests\bin\Debug\net10.0\GestaoClubes.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="GestaoClubes.Tests.RulesTests" name="VotingRequiresApprovedVotingType" />
+    </UnitTest>
+    <UnitTest name="GestaoClubes.Tests.RulesTests.CpfChecksDigits(cpf: &quot;529.982.247-25&quot;, valid: True)" storage="c:\users\diego\documents\codex\2026-10-30\referenced-chatgpt-conversation-this-is-an\outputs\gestaoclubes\tests\gestaoclubes.tests\bin\debug\net10.0\gestaoclubes.tests.dll" id="0392a0b0-cd15-e461-c64b-894ba3054b32">
+      <Execution id="16929d12-1488-4afb-9523-3f5315c5cf3e" />
+      <TestMethod codeBase="C:\Users\diego\Documents\Codex\2026-10-30\referenced-chatgpt-conversation-this-is-an\outputs\GestaoClubes\tests\GestaoClubes.Tests\bin\Debug\net10.0\GestaoClubes.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="GestaoClubes.Tests.RulesTests" name="CpfChecksDigits" />
+    </UnitTest>
+    <UnitTest name="GestaoClubes.Tests.RulesTests.VotingRequiresApprovedVotingType(type: Simpatizante, status: Aprovado, expected: False)" storage="c:\users\diego\documents\codex\2026-10-30\referenced-chatgpt-conversation-this-is-an\outputs\gestaoclubes\tests\gestaoclubes.tests\bin\debug\net10.0\gestaoclubes.tests.dll" id="5aa778e8-5c6a-6e0e-79e4-eeea6e943a67">
+      <Execution id="e11a37ac-7f37-41c1-bd2f-76785997b858" />
+      <TestMethod codeBase="C:\Users\diego\Documents\Codex\2026-10-30\referenced-chatgpt-conversation-this-is-an\outputs\GestaoClubes\tests\GestaoClubes.Tests\bin\Debug\net10.0\GestaoClubes.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="GestaoClubes.Tests.RulesTests" name="VotingRequiresApprovedVotingType" />
+    </UnitTest>
+    <UnitTest name="GestaoClubes.Tests.RulesTests.CpfChecksDigits(cpf: &quot;52998224726&quot;, valid: False)" storage="c:\users\diego\documents\codex\2026-10-30\referenced-chatgpt-conversation-this-is-an\outputs\gestaoclubes\tests\gestaoclubes.tests\bin\debug\net10.0\gestaoclubes.tests.dll" id="24f14e57-c394-a3d4-14b7-4136053dd71d">
+      <Execution id="dcd02ee0-e215-43cd-8a1f-c259493011c2" />
+      <TestMethod codeBase="C:\Users\diego\Documents\Codex\2026-10-30\referenced-chatgpt-conversation-this-is-an\outputs\GestaoClubes\tests\GestaoClubes.Tests\bin\Debug\net10.0\GestaoClubes.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="GestaoClubes.Tests.RulesTests" name="CpfChecksDigits" />
+    </UnitTest>
+    <UnitTest name="GestaoClubes.Tests.RulesTests.VotingRequiresApprovedVotingType(type: Associado, status: Aprovado, expected: True)" storage="c:\users\diego\documents\codex\2026-10-30\referenced-chatgpt-conversation-this-is-an\outputs\gestaoclubes\tests\gestaoclubes.tests\bin\debug\net10.0\gestaoclubes.tests.dll" id="8d8fb717-8121-d5f6-b22a-6cb4afbab5b0">
+      <Execution id="c9e39f9a-54a5-47f8-a92a-a69c3d051cac" />
+      <TestMethod codeBase="C:\Users\diego\Documents\Codex\2026-10-30\referenced-chatgpt-conversation-this-is-an\outputs\GestaoClubes\tests\GestaoClubes.Tests\bin\Debug\net10.0\GestaoClubes.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="GestaoClubes.Tests.RulesTests" name="VotingRequiresApprovedVotingType" />
+    </UnitTest>
+    <UnitTest name="GestaoClubes.Tests.RulesTests.ReservationIntervalMustBeUtcAndPositive" storage="c:\users\diego\documents\codex\2026-10-30\referenced-chatgpt-conversation-this-is-an\outputs\gestaoclubes\tests\gestaoclubes.tests\bin\debug\net10.0\gestaoclubes.tests.dll" id="f2e6f4ef-959e-817d-9a78-67f1b818453f">
+      <Execution id="767c1ed7-bbc2-426f-8a4c-aa781afaecfa" />
+      <TestMethod codeBase="C:\Users\diego\Documents\Codex\2026-10-30\referenced-chatgpt-conversation-this-is-an\outputs\GestaoClubes\tests\GestaoClubes.Tests\bin\Debug\net10.0\GestaoClubes.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="GestaoClubes.Tests.RulesTests" name="ReservationIntervalMustBeUtcAndPositive" />
+    </UnitTest>
+    <UnitTest name="GestaoClubes.Tests.RulesTests.VotingRequiresApprovedVotingType(type: Fundador, status: Aprovado, expected: True)" storage="c:\users\diego\documents\codex\2026-10-30\referenced-chatgpt-conversation-this-is-an\outputs\gestaoclubes\tests\gestaoclubes.tests\bin\debug\net10.0\gestaoclubes.tests.dll" id="bd5e1f85-6ad1-53ff-8d83-b23260f9f7d2">
+      <Execution id="52f54249-7a5a-4035-900c-5e4c12dd3bda" />
+      <TestMethod codeBase="C:\Users\diego\Documents\Codex\2026-10-30\referenced-chatgpt-conversation-this-is-an\outputs\GestaoClubes\tests\GestaoClubes.Tests\bin\Debug\net10.0\GestaoClubes.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="GestaoClubes.Tests.RulesTests" name="VotingRequiresApprovedVotingType" />
+    </UnitTest>
+    <UnitTest name="GestaoClubes.Tests.RulesTests.AdjacentReservationsDoNotOverlap" storage="c:\users\diego\documents\codex\2026-10-30\referenced-chatgpt-conversation-this-is-an\outputs\gestaoclubes\tests\gestaoclubes.tests\bin\debug\net10.0\gestaoclubes.tests.dll" id="d4b6f53c-e18f-e082-e0d9-0b96ae0aad3c">
+      <Execution id="f29c35c6-94c6-463c-a847-af4f79126af4" />
+      <TestMethod codeBase="C:\Users\diego\Documents\Codex\2026-10-30\referenced-chatgpt-conversation-this-is-an\outputs\GestaoClubes\tests\GestaoClubes.Tests\bin\Debug\net10.0\GestaoClubes.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="GestaoClubes.Tests.RulesTests" name="AdjacentReservationsDoNotOverlap" />
+    </UnitTest>
+    <UnitTest name="GestaoClubes.Tests.RulesTests.CpfChecksDigits(cpf: &quot;11111111111&quot;, valid: False)" storage="c:\users\diego\documents\codex\2026-10-30\referenced-chatgpt-conversation-this-is-an\outputs\gestaoclubes\tests\gestaoclubes.tests\bin\debug\net10.0\gestaoclubes.tests.dll" id="17bdee3d-4a28-6a41-f3ef-66112223973b">
+      <Execution id="31f6ffa5-b20f-430c-a19f-3347ebc8adbb" />
+      <TestMethod codeBase="C:\Users\diego\Documents\Codex\2026-10-30\referenced-chatgpt-conversation-this-is-an\outputs\GestaoClubes\tests\GestaoClubes.Tests\bin\Debug\net10.0\GestaoClubes.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="GestaoClubes.Tests.RulesTests" name="CpfChecksDigits" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="5aa778e8-5c6a-6e0e-79e4-eeea6e943a67" executionId="e11a37ac-7f37-41c1-bd2f-76785997b858" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bd5e1f85-6ad1-53ff-8d83-b23260f9f7d2" executionId="52f54249-7a5a-4035-900c-5e4c12dd3bda" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e75637a6-06df-26f7-f614-2ed39e2c0c7e" executionId="fbd1241b-cb57-4825-b077-1827d522011b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8d8fb717-8121-d5f6-b22a-6cb4afbab5b0" executionId="c9e39f9a-54a5-47f8-a92a-a69c3d051cac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d4b6f53c-e18f-e082-e0d9-0b96ae0aad3c" executionId="f29c35c6-94c6-463c-a847-af4f79126af4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4af05b64-6f31-caf2-3905-134c2b0cbb3a" executionId="ff810c26-3568-4093-a16b-c8f4ac070143" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="17bdee3d-4a28-6a41-f3ef-66112223973b" executionId="31f6ffa5-b20f-430c-a19f-3347ebc8adbb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0392a0b0-cd15-e461-c64b-894ba3054b32" executionId="16929d12-1488-4afb-9523-3f5315c5cf3e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="24f14e57-c394-a3d4-14b7-4136053dd71d" executionId="dcd02ee0-e215-43cd-8a1f-c259493011c2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f2e6f4ef-959e-817d-9a78-67f1b818453f" executionId="767c1ed7-bbc2-426f-8a4c-aa781afaecfa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1c3a4962-df01-e693-4665-09f4e758a501" executionId="0aee0cd5-745c-4cad-8fa8-498366259d00" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fba32df5-e8af-9bab-04da-c76bd8d09f3f" executionId="32a225e1-9df7-4f19-abd3-2ae2420e5711" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5b7c98ca-c77f-b508-6226-c5c7ee6f6797" executionId="d03be710-2cb4-4b14-947f-20c2c2b0417f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="86c0f841-a209-395b-3fbf-2d074e3cffbc" executionId="e5154ffa-faf1-43b5-a444-497bb8ccdda1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ed877c57-930a-5f2a-dbd6-1d491354d8d1" executionId="a9c32305-5647-48d4-b92c-8b7ed0d3d6c7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="15" executed="15" passed="15" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.4+50e68bbb8b (64-bit .NET 10.0.12)&#xD;
+[xUnit.net 00:00:00.10]   Discovering: GestaoClubes.Tests&#xD;
+[xUnit.net 00:00:00.27]   Discovered:  GestaoClubes.Tests&#xD;
+[xUnit.net 00:00:00.31]   Starting:    GestaoClubes.Tests&#xD;
+[xUnit.net 00:00:08.90]   Finished:    GestaoClubes.Tests&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

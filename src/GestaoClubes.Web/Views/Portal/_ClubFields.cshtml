@@ -1,0 +1,8 @@
+@model System.Text.Json.JsonElement?
+<div class="grid">
+@foreach(var field in new[]{("Name","Nome",120),("Acronym","Sigla",12),("Address","Endereço",200),("Neighborhood","Bairro",80),("City","Cidade",80),("State","UF",2),("Phone","Telefone",30),("Email","E-mail",160)}){
+ var key=char.ToLowerInvariant(field.Item1[0])+field.Item1.Substring(1);
+ var value=Model.HasValue&&Model.Value.TryGetProperty(key,out var prop)?prop.ToString():"";
+ <div><label>@field.Item2<input name="@field.Item1" value="@value" required="@(field.Item1!="Phone")" maxlength="@field.Item3"/></label></div>
+}
+<div><label>Mensalidade (ponto decimal)<input name="MonthlyFee" value="@(Model.HasValue?Model.Value.GetProperty("monthlyFee").ToString():"")" type="number" min="0" max="100000" step="0.01" required/></label></div></div>

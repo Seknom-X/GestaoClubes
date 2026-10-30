@@ -1,0 +1,41 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "GestaoClubes: API",
+      "type": "shell",
+      "command": "pwsh",
+      "args": [
+        "-File",
+        "scripts/Start.ps1",
+        "-Service",
+        "Api"
+      ],
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "GestaoClubes: Web",
+      "type": "shell",
+      "command": "pwsh",
+      "args": [
+        "-File",
+        "scripts/Start.ps1",
+        "-Service",
+        "Web"
+      ],
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "GestaoClubes: testes",
+      "type": "shell",
+      "command": "pwsh",
+      "args": [
+        "-File",
+        "scripts/Test.ps1"
+      ],
+      "problemMatcher": "$msCompile"
+    }
+  ]
+}
