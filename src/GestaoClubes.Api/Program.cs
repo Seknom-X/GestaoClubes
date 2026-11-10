@@ -54,7 +54,9 @@ auth.MapPost("/login", async (LoginRequest input, ClubDb db, PasswordHasher<Acco
 });
 auth.MapPost("/register", async (RegisterRequest input, ClubDb db, PersonalData privacy, PasswordHasher<Account> hasher) =>
 {
-    if (!input.PrivacyAccepted || !Rules.ValidCpf(input.Cpf) || !Rules.ValidBirth(input.BirthDate)) throw new DomainError(400, "Aceite a informação de privacidade e informe CPF e nascimento válidos.");
+    if (!input.PrivacyAccepted) throw new DomainError(400, "Marque a caixa de leitura da informação de privacidade antes de enviar o cadastro.");
+    if (!Rules.ValidCpf(input.Cpf)) throw new DomainError(400, "CPF inválido. Confira os 11 dígitos e os dígitos verificadores. Na demonstração, use um CPF sintético válido.");
+    if (!Rules.ValidBirth(input.BirthDate)) throw new DomainError(400, "Nascimento inválido. A data não pode estar no futuro nem ultrapassar 120 anos.");
     if (!await db.Clubs.AnyAsync(x => x.Id == input.ClubId)) throw new DomainError(404, "Clube inexistente.");
     var email = input.Email.Trim().ToLowerInvariant();
     var account = await db.Accounts.SingleOrDefaultAsync(x => x.Email == email);
