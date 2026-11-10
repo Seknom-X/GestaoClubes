@@ -36,6 +36,24 @@
         "scripts/Test.ps1"
       ],
       "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "GestaoClubes: abrir emulador",
+      "type": "process",
+      "command": "pwsh",
+      "args": [
+        "-NoProfile",
+        "-File",
+        "${workspaceFolder}/scripts/Emulador.ps1"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      }
     }
   ]
 }
